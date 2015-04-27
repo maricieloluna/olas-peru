@@ -1,0 +1,445 @@
+* {
+	box-sizing:border-box;
+	margin: 0;
+}
+html,
+body,
+.container {
+	height: 100%; 
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Pacifico', cursive;
+}
+
+h1 {
+	font-size: 3.5em;
+}
+
+label {
+	font-size: 14px;
+}
+
+/*Parte principal-portada-*/
+.surf {
+	background-image: url(girl.jpg);
+	background-size: cover;
+	height: 100%;
+	background-attachment: fixed;
+}
+ul {
+	list-style: none;
+	right:0;
+	position: relative;
+	top:12%;
+	float: right;
+}
+img {
+width: 100%;
+}
+.menu {
+	background: rgba(156, 188, 223, 0.9);
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+	height: 102px;
+	transition: height 0.2s ease-in-out;
+}
+
+.menu.on-scroll {
+	background-color: rgba(26, 60, 105, 0.9);
+	height: 70px;
+}
+
+.menu.on-scroll li a {
+	font-size: 0.8em;
+}
+
+.menu li{
+	float: left;
+	padding: 25px;
+}
+.menu li a {
+	color: white;
+	text-decoration: none;
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+li {
+	
+}
+.centro{
+	width: 100%;
+	position: relative;
+	top: 35%;
+	text-align: center;
+	color: white;
+	}	
+
+ * {
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+ .imagene {
+ 	width: 33%;
+ 	float: left;
+ }
+
+ .imagene img {
+	width: 300px;
+	display: block; 	
+ 	margin: 0 auto;
+ }
+
+ .paquete-a {
+	width: 300px; 	
+ 	background-color: white;
+ 	height: 362px;
+ 	padding: 14px;
+ 	margin: 0 auto;
+ }
+	
+div {
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+ .clearfix:after {
+  clear: both;
+
+}
+ .clearfix {
+  *zoom: 1;
+}
+
+/*Fin de Portada*/
+
+/*parte del horario de las clases*/
+.parte2 {
+	width: 100%;
+	background-color: #F3EDED;
+	position: relative;
+}
+h2 {
+	text-align: center;
+	padding-bottom: 20px;
+	/*font-family: courier;*/
+	font-size: 2em;
+	padding-right: 72px;
+}
+.texto1 {
+	width: 40%;
+	position: absolute;
+	top: 165px;
+	left: 74px;
+}
+.texto1 p {
+	width: 100%;
+	text-align: center;
+	padding-right: 52px;
+}
+
+.video {
+	width: 60%;
+	left: 40%;
+	position: relative;
+	text-align: center;
+}
+.olaperu {
+	padding: 20px;
+	padding-top: 87px;
+	padding-bottom: 87px;
+}
+
+/*fin dek horario*/
+.titulo {
+	text-align: center;
+	padding-top: 53px;
+	padding-bottom: 24px;
+}
+.parte3 {
+	background-color: #8F9695;
+	widows: 100%;
+}
+
+li {
+
+}
+.imagene p {
+	top: 35px;
+	text-align: center;
+}
+
+.imagene .precio {
+	top: 57px;
+	left: -38px;
+}
+
+.imagenes img {
+	height: 280px;
+	width: auto;
+	overflow: hidden;
+} 
+
+h3 #tres {
+	top: 75px;
+}
+
+.paquete {
+	/*position: relative;*/
+	width: 100%;
+	padding-bottom: 12%;
+}
+.paquete img {
+	
+}
+
+.paquetes {
+background-color: #4B77BE;
+background-attachment: scroll;
+}
+
+.btn-custom {
+	border: 2px solid #4B77BE;
+	background-color: white;
+	margin: 0 auto;
+	width: 120px;
+	height: 37px;
+	text-align: center;
+	padding-top: 7px;
+	margin-top: 14px;
+}
+
+.inscribete {
+	color: #4B77BE;
+	text-decoration: none;
+}
+
+/*fin del parte 3-clases*/
+
+/*Parte 4-el equipo*/
+.nosotros {
+	background-color: white;
+	width: 100%;
+	min-height: 100%;
+	padding: 3%;
+}
+.nosotros h3 {
+	padding-bottom: 3%;
+}
+.nosotros h3,
+.nosotros p {
+	color: black;
+	text-align: center;
+}
+.imagenes {
+	width: 25%;
+	position: relative;
+}
+span,
+h4 {
+	/*font-family: 'Open Sans', sans-serif;*/
+	visibility: hidden;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.surfista {
+	top: 46%;
+	position: relative;
+	text-align: center;
+}
+.overlay:hover span,
+.overlay:hover h4  {
+	visibility: visible;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 280px;
+	top: 0;
+	background-color: rgba(0,0,0,0.3);
+	/*padding: 0 1px;*/
+}
+.overlay:hover {
+	background-color: rgba(223, 205, 24, 0.3);
+}
+.grid img {
+	width: 100%;	
+}
+
+.imagen {
+	position: relative;
+	height: 280px;
+	width: 100%;
+}
+
+.grid .imagenes {
+	float: left;
+	padding: 1px;
+}
+/*fin de equipo*/
+
+.imagene h3 {
+	padding-bottom: 8%;
+	padding-top: 10%;
+	text-align: center;
+	font-family: inherit;
+}
+
+.titulo h2 {
+font-size: 2em;
+color: white;
+}
+
+.nosotros h3{
+	font-size: 2em;
+}
+
+.nosotros p {
+	font-size: 1em;
+	/*font-family: inherit;*/
+/*font-family: 'Droid Sans', sans-serif;*/
+/*font-family: 'PT Sans', sans-serif;*/
+font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+	font-size: 1.5em;
+}
+
+
+/*comienzo del formulario*/
+
+.parte4 {
+	background-color: #B1D2ED;
+}
+
+.formulario{
+	background-color:blue;
+	margin: 20px;
+	}
+.row{
+	position: relative;
+	left: 20%;
+}
+
+/*Final footer*/
+
+.contacto h2{
+	font-family: 'Pacifico', cursive;
+padding-top: 49px;
+padding-bottom: 2%;
+font-size: 2em;
+}
+
+#formulario{
+	border:solid 0px #EFEAEA;
+	background:#C0D8F4;
+	margin:0 auto;
+	width:565px;
+	padding:29px;
+	margin-bottom: 64px;
+	height: 360px;
+	border-radius: 11px;
+}
+
+#formulario h1 {
+	font-size:24px;
+	margin-bottom:10px;
+}
+#formulario label{
+	display:block;
+	text-align:right;
+	width:140px;
+	float:left;
+	padding: 10px;
+	/*font-family: inherit;*/
+	font-family: 'Roboto', sans-serif;
+}
+
+#formulario .detalle{
+	color:#666666;
+	display:block;
+	font-size:11px;
+	font-weight:normal;
+	text-align:right;
+	width:140px;
+}
+#formulario input{
+	float:left;
+	font-size:12px;
+	padding:4px 2px;
+	border:solid 1px #BBC0C3;
+	width:292px;
+	margin:2px 0 20px 10px;
+	height: 36px;
+	border-radius: 8px;
+}
+#formulario button{
+  clear:both;
+  margin:0 auto;
+  width:112px;
+  height:43px;
+  background:#FCFCFC;
+  text-align:center;
+  line-height:31px;
+  color:#151313;
+  font-size:15px;
+  /*font-weight:bold;
+  font-family: sans-serif;*/
+  position: relative;
+  left: 140px;
+  margin-left:20%;
+  border: 2px solid rgb(193, 191, 207);
+  /*font-family: inherit;*/
+  border-radius:6px;
+  font-family: 'Roboto', sans-serif;
+}
+form #form{
+  width: 485px;
+height: 298px;
+}
+input #name{
+  height: 35px;
+}
+input#password.mensaje{
+  height: 111px;
+}
+.button{
+  padding-left: 2px;
+	margin-top: 10px;
+	border-top-width: 0px;
+	margin-left: 21%;
+}
+.contacto h2{
+	padding-top: 50px;
+	padding-left: 65px;
+	color:#4C4B52;
+}
+
+div.parte4{
+	padding-bottom: 36px;
+}
+
+.footer{
+	height: 80px;
+	background-color:#D8E3EC;
+	padding: 80px;
+	padding-top: 54px;
+	color:rgb(27, 27, 32);
+}
+
+h5{
+	color: white;
+	margin-left: 21px;
+	margin-top: 8px;
+	margin-bottom: 9px;
+	margin-right: 468px;
+	width:85%;
+}
